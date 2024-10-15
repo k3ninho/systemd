@@ -133,7 +133,6 @@ void manager_flush_runtime_servers(Manager *m);
 
 int manager_connect(Manager *m);
 void manager_disconnect(Manager *m);
-bool manager_is_connected(Manager *m);
 
 int process_server_name_for_address(const char *name, char **addr, char **port);
 
